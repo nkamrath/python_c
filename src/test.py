@@ -16,5 +16,5 @@ for i in range(0, len(c_list)):
 	print(c_list[i])
 
 
-print(lib.csum(c_list, len(c_list)))
+print(lib.csum(c_list, ct.c_int(len(c_list))))
 print(c_list[-1])
